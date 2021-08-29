@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Sharma - LINKS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body{
+            max-width: 500px;
+            background-color: #4d4d52;
+            margin: auto;
+            background-image: url('bg.png');
+        }
+        .container{
+            display: block;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            box-shadow: 10px 8px 0px rgb(191 219 254);
+            background: #e8eff5;
+            border-radius: 10px;
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+            color: rgb(29, 28, 28);
+            max-width: 80%;
+        }
+        .avatar{
+            border-radius: 50%;
+            width: 150px;
+            height:150px;
+            object-fit:cover;
+            box-shadow: 7px 7px 15px #bbcfda,-4px -4px 13px #fff, inset 4px 4px 8px rgba(209, 217, 230, 0.2),  inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3); 
+        }
+        h1.name{
+            color: rgb(60, 116, 186);
+            text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        }
+        hr{
+            border: 0;
+            height: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .link{
+            width: 80%;
+            text-decoration: none;
+            color: black;
+            background-color: rgb(191 219 254);
+            display: block;
+            margin: auto;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 25px;
+            box-shadow: 0px 1px 0px 0px rgba(9,30,66,.25);
+            transition: box-shadow 0.9s ease-in-out;
+        }
+        .link:hover{
+            box-shadow: 0px 13px 27px -5px rgba(50,50,93,0.25) , 0px 8px 16px -8px rgba(0,0,0,0.3) , 0px -6px 16px -6px rgba(0,0,0,0.025);
+        }
+        .embed-responsive {
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 0;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .embed-responsive::before {
+            display: block;
+            content: ""
+        }
+
+        .embed-responsive .embed-responsive-item,
+        .embed-responsive embed,
+        .embed-responsive iframe,
+        .embed-responsive object,
+        .embed-responsive video {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0
+        }
+
+        .embed-responsive-21by9::before {
+            padding-top: 42.857143%
+        }
+
+        .embed-responsive-16by9::before {
+            padding-top: 56.25%
+        }
+
+        .embed-responsive-4by3::before {
+            padding-top: 75%
+        }
+
+        .embed-responsive-1by1::before {
+            padding-top: 100%
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/img/aslisachin.png" class="avatar">
+        <h1 class="name">Sachin Sharma</h1>
+        <p>I'm a programmer and Tech-enthusiast</p>
+        <hr/>
+        <a href="#" class="link">Instagram</a>
+        <br/>
+        <a href="#" class="link">Twitter</a>
+        <br/>
+        <a href="#" class="link">Blog</a>
+        <br/>
+
+
+        <!--
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/-mVQQTtwomA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        -->
+
+    </div>
+
+    <div class="container">
+        <small>&copy; AsliSachin</small>
+    </div>
+</body>
+</html>
